@@ -1,0 +1,4 @@
+Animations are set up as shown in PNG for GLB.
+
+FBX to GLB Animation Combine
+https://mixamo2gltf.com/
