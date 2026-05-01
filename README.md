@@ -13,3 +13,10 @@ Two Python Scripts;
          Threshold can can changed for more or less notes. (Easier --> Harder)
 "Manual" - Song plays and YOU type in the notes and it records input. 
           Creates JSON to copy into your game folder.
+
+
+Game Files
+https://drive.google.com/drive/folders/1WlyxCmp9_8Mi8ISd0337XpNutRwMVQ8z?usp=drive_link
+
+Free Hosting Demo
+djdeathstarehero.infinityfree.me
