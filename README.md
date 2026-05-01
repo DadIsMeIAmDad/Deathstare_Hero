@@ -12,11 +12,11 @@ Two Python Scripts;
 "Auto" - Creates song note JSON chart to copy into your level JSON
          Threshold can can changed for more or less notes. (Easier --> Harder)
 "Manual" - Song plays and YOU type in the notes and it records input. 
-          Creates JSON to copy into your game folder.
+          Creates JSON to copy into your game folder
+
+NOTE: Models here are not correct as they were too big. 
+      But the Google Drive link has the origonal models.
 
 
 Game Files
 https://drive.google.com/drive/folders/1WlyxCmp9_8Mi8ISd0337XpNutRwMVQ8z?usp=drive_link
-
-Free Hosting Demo
-https://djdeathstarehero.infinityfree.me
