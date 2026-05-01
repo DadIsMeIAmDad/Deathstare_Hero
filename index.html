@@ -1,0 +1,98 @@
+<style>
+#mainMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a0033, #330066, #660099);
+    background-size: 400% 400%;
+    animation: bgMove 12s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes bgMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#menuTitle {
+    font-size: 70px;
+    color: white;
+    text-shadow: 0 0 20px cyan;
+    margin-bottom: 40px;
+}
+
+#levelBox {
+    width: 400px;
+    height: 300px;
+    background: rgba(0,0,0,0.4);
+    border: 2px solid cyan;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#levelList div {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#levelList div:hover {
+    background: rgba(0,255,255,0.3);
+    transform: scale(1.03);
+}
+
+</style>
+
+<div id="mainMenu">
+    <div id="menuTitle">DJ DEATHSTARE</div>
+
+    <div id="levelBox">
+        <div id="levelList"></div>
+    </div>
+</div>
+
+<script>
+// LEVELS YOU WANT TO SHOW
+const levels = [
+{ name: "That Was From Jaws", param: "song4" },
+{ name: "Quick and to the Pointless", param: "song3" },
+{ name: "White Lamps Can't Dance", param: "song1" },
+{ name: "Sammy the Stationary Statue", param: "song2" }
+];
+
+// POPULATE LEVEL LIST
+function loadMainMenu() {
+    const list = document.getElementById("levelList");
+    list.innerHTML = "";
+
+    levels.forEach(level => {
+        const item = document.createElement("div");
+        item.textContent = level.name;
+
+item.onclick = () => {
+    window.location.href = "game.html?level=" + level.param;
+};
+
+
+
+        list.appendChild(item);
+    });
+}
+
+// SHOW MENU ON PAGE LOAD
+window.onload = loadMainMenu;
+
+</script>
