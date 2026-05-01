@@ -1,0 +1,1327 @@
+{
+  "bpm": 120,
+  "offset": 0,
+
+"targetScore": 6000,
+
+  "player": {
+    "model": "./models/player.glb",
+    "scale": 125,
+    "x": -5.5
+  },
+
+  "boss": {
+    "model": "./models/player2.glb",
+    "scale": 125,
+    "x": 5.5
+	
+  },
+
+  "music": {
+    "audio": "./songs/song3.mp3"
+  },
+
+  "notes": [
+
+    {
+      "time": 1857,
+      "key": "KeyX"
+    },
+    {
+      "time": 2275,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 2670,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 3065,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 3459,
+      "key": "KeyZ"
+    },
+    {
+      "time": 3877,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 4272,
+      "key": "KeyZ"
+    },
+    {
+      "time": 4667,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 5061,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 5479,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 5874,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 6571,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 7035,
+      "key": "KeyX"
+    },
+    {
+      "time": 7476,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 7871,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 8266,
+      "key": "KeyZ"
+    },
+    {
+      "time": 8661,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 9055,
+      "key": "KeyZ"
+    },
+    {
+      "time": 9473,
+      "key": "KeyZ"
+    },
+    {
+      "time": 9868,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 10286,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 10681,
+      "key": "KeyX"
+    },
+    {
+      "time": 11075,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 11470,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 12074,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 12492,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 13072,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 13490,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 13885,
+      "key": "KeyZ"
+    },
+    {
+      "time": 14675,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 15069,
+      "key": "KeyZ"
+    },
+    {
+      "time": 15464,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 15882,
+      "key": "KeyZ"
+    },
+    {
+      "time": 16277,
+      "key": "KeyZ"
+    },
+    {
+      "time": 16695,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 17089,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 17484,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 17879,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 18483,
+      "key": "KeyZ"
+    },
+    {
+      "time": 18901,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 19481,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 19876,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 20271,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 20688,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 21083,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 21478,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 21896,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 22291,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 22685,
+      "key": "KeyZ"
+    },
+    {
+      "time": 23080,
+      "key": "KeyZ"
+    },
+    {
+      "time": 23498,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 23893,
+      "key": "KeyZ"
+    },
+    {
+      "time": 24288,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 24682,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 25077,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 25495,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 25890,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 26284,
+      "key": "KeyZ"
+    },
+    {
+      "time": 26656,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 27097,
+      "key": "KeyX"
+    },
+    {
+      "time": 27492,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 27887,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 28281,
+      "key": "KeyZ"
+    },
+    {
+      "time": 28699,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 29094,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 29489,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 29884,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 30302,
+      "key": "KeyX"
+    },
+    {
+      "time": 30696,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 31091,
+      "key": "KeyZ"
+    },
+    {
+      "time": 31486,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 31880,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 32298,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 33018,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 33506,
+      "key": "KeyX"
+    },
+    {
+      "time": 33901,
+      "key": "KeyZ"
+    },
+    {
+      "time": 34295,
+      "key": "KeyZ"
+    },
+    {
+      "time": 34713,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 35108,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 35503,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 35898,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 36269,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 36687,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 37105,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 37500,
+      "key": "KeyZ"
+    },
+    {
+      "time": 37894,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 38289,
+      "key": "KeyX"
+    },
+    {
+      "time": 38707,
+      "key": "KeyX"
+    },
+    {
+      "time": 39102,
+      "key": "KeyX"
+    },
+    {
+      "time": 39706,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 40100,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 40518,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 41099,
+      "key": "KeyX"
+    },
+    {
+      "time": 41494,
+      "key": "KeyX"
+    },
+    {
+      "time": 41888,
+      "key": "KeyZ"
+    },
+    {
+      "time": 42283,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 42701,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 43096,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 43514,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 43885,
+      "key": "KeyZ"
+    },
+    {
+      "time": 44303,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 44698,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 45093,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 45511,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 46114,
+      "key": "KeyX"
+    },
+    {
+      "time": 46509,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 47090,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 47508,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 47902,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 48297,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 48692,
+      "key": "KeyZ"
+    },
+    {
+      "time": 49504,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 49899,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 50294,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 50712,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 51107,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 51501,
+      "key": "KeyX"
+    },
+    {
+      "time": 51896,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 52291,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 52709,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 53104,
+      "key": "KeyX"
+    },
+    {
+      "time": 53498,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 53893,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 54311,
+      "key": "KeyZ"
+    },
+    {
+      "time": 54706,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 55100,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 55495,
+      "key": "KeyZ"
+    },
+    {
+      "time": 55890,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 56308,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 56703,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 57097,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 57515,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 57910,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 58305,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 58700,
+      "key": "KeyZ"
+    },
+    {
+      "time": 59094,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 59698,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 60116,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 60696,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 61300,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 62252,
+      "key": "KeyX"
+    },
+    {
+      "time": 62693,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 63088,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 63901,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 64296,
+      "key": "KeyX"
+    },
+    {
+      "time": 64690,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 65085,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 65480,
+      "key": "KeyZ"
+    },
+    {
+      "time": 65898,
+      "key": "KeyZ"
+    },
+    {
+      "time": 66269,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 66687,
+      "key": "KeyX"
+    },
+    {
+      "time": 67082,
+      "key": "KeyZ"
+    },
+    {
+      "time": 67500,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 67895,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 68289,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 68684,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 69265,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 69683,
+      "key": "KeyX"
+    },
+    {
+      "time": 70286,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 70681,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 71076,
+      "key": "KeyX"
+    },
+    {
+      "time": 71494,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 71888,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 72492,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 72887,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 73491,
+      "key": "KeyX"
+    },
+    {
+      "time": 74094,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 74628,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 75093,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 75488,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 75882,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 76300,
+      "key": "KeyX"
+    },
+    {
+      "time": 76672,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 77090,
+      "key": "KeyZ"
+    },
+    {
+      "time": 77484,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 77879,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 78274,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 78901,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 79296,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 79876,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 80294,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 80689,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 81084,
+      "key": "KeyX"
+    },
+    {
+      "time": 81920,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 82477,
+      "key": "KeyX"
+    },
+    {
+      "time": 83080,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 83475,
+      "key": "KeyX"
+    },
+    {
+      "time": 83870,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 84288,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 84683,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 85263,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 85681,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 86076,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 86494,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 86889,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 87307,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 87678,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 88096,
+      "key": "KeyX"
+    },
+    {
+      "time": 88491,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 88885,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 89303,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 89675,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 90093,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 90488,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 90882,
+      "key": "KeyX"
+    },
+    {
+      "time": 91277,
+      "key": "KeyX"
+    },
+    {
+      "time": 91695,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 92090,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 92485,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 92879,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 93274,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 93669,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 94110,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 94505,
+      "key": "KeyZ"
+    },
+    {
+      "time": 94899,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 95294,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 95689,
+      "key": "KeyX"
+    },
+    {
+      "time": 96084,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 96478,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 96873,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 97268,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 97686,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 98057,
+      "key": "KeyZ"
+    },
+    {
+      "time": 98638,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 99056,
+      "key": "KeyX"
+    },
+    {
+      "time": 99474,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 99869,
+      "key": "KeyZ"
+    },
+    {
+      "time": 100263,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 100658,
+      "key": "KeyX"
+    },
+    {
+      "time": 101076,
+      "key": "KeyX"
+    },
+    {
+      "time": 101471,
+      "key": "KeyZ"
+    },
+    {
+      "time": 101889,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 102283,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 102678,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 103073,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 103468,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 103862,
+      "key": "KeyX"
+    },
+    {
+      "time": 104257,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 104675,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 105070,
+      "key": "KeyX"
+    },
+    {
+      "time": 105465,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 105882,
+      "key": "KeyZ"
+    },
+    {
+      "time": 106277,
+      "key": "KeyZ"
+    },
+    {
+      "time": 106672,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 107067,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 107461,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 107879,
+      "key": "KeyZ"
+    },
+    {
+      "time": 108274,
+      "key": "KeyZ"
+    },
+    {
+      "time": 108669,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 109064,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 109482,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 109876,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 110271,
+      "key": "KeyZ"
+    },
+    {
+      "time": 110689,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 111084,
+      "key": "KeyZ"
+    },
+    {
+      "time": 111479,
+      "key": "KeyZ"
+    },
+    {
+      "time": 112222,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 112640,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 113057,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 113452,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 113870,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 114265,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 114660,
+      "key": "KeyZ"
+    },
+    {
+      "time": 115054,
+      "key": "KeyX"
+    },
+    {
+      "time": 115472,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 115867,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 116262,
+      "key": "KeyX"
+    },
+    {
+      "time": 116657,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 117051,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 117469,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 117864,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 118259,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 118839,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 119257,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 119652,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 120070,
+      "key": "KeyZ"
+    },
+    {
+      "time": 120441,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 120883,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 121277,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 121672,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 122067,
+      "key": "KeyZ"
+    },
+    {
+      "time": 122485,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 122880,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 123274,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 123669,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 124087,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 124482,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 124876,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 125248,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 125666,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 126061,
+      "key": "KeyZ"
+    },
+    {
+      "time": 126455,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 126873,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 127477,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 127872,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 128267,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 128661,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 129056,
+      "key": "KeyX"
+    },
+    {
+      "time": 129451,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 129869,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 130263,
+      "key": "KeyZ"
+    },
+    {
+      "time": 130658,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 131053,
+      "key": "KeyX"
+    },
+    {
+      "time": 131424,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 131842,
+      "key": "KeyX"
+    },
+    {
+      "time": 132260,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 132655,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 133073,
+      "key": "KeyX"
+    },
+    {
+      "time": 133468,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 133863,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 134304,
+      "key": "KeyZ"
+    },
+    {
+      "time": 134954,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 135325,
+      "key": "KeyZ"
+    },
+    {
+      "time": 135906,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 136370,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 136765,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 137206,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 137624,
+      "key": "KeyZ"
+    },
+    {
+      "time": 139273,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 139668,
+      "key": "ArrowUp"
+    },
+    {
+      "time": 140062,
+      "key": "ArrowRight"
+    },
+    {
+      "time": 140434,
+      "key": "ArrowLeft"
+    },
+    {
+      "time": 140875,
+      "key": "ArrowDown"
+    },
+    {
+      "time": 141386,
+      "key": "KeyX"
+    },
+    {
+      "time": 141897,
+      "key": "ArrowRight"
+    }
+  ]
+}
