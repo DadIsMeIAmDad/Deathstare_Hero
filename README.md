@@ -19,4 +19,4 @@ Game Files
 https://drive.google.com/drive/folders/1WlyxCmp9_8Mi8ISd0337XpNutRwMVQ8z?usp=drive_link
 
 Free Hosting Demo
-djdeathstarehero.infinityfree.me
+https://djdeathstarehero.infinityfree.me
