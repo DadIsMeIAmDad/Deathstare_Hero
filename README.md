@@ -17,6 +17,8 @@ Two Python Scripts;
 After learning about DRACO compression, The models are now properly sized and the game loads faster.
 https://ilove3dm.com/en/compress-model
 
+Live Game (Keyboard Needed)
+https://dadismeiamdad.github.io/Deathstare_Hero
 
 Game Files
 https://drive.google.com/drive/folders/1WlyxCmp9_8Mi8ISd0337XpNutRwMVQ8z?usp=drive_link
