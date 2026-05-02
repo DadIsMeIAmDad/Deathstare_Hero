@@ -14,8 +14,8 @@ Two Python Scripts;
 "Manual" - Song plays and YOU type in the notes and it records input. 
           Creates JSON to copy into your game folder
 
-NOTE: Models here are not correct as they were too big. 
-      But the Google Drive link has the origonal models.
+After learning about DRACO compression, The models are now properly sized and the game loads faster.
+https://ilove3dm.com/en/compress-model
 
 
 Game Files
