@@ -1,2 +1,0 @@
-python makenote.py
-pause
