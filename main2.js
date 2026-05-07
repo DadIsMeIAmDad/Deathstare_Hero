@@ -1506,32 +1506,30 @@ document.addEventListener("click", (e) => {
   }
 });
 
-window.addEventListener("touchstart", (e) => {
-    const touch = e.touches[0];
+window.addEventListener("mousedown", (e) => {
     isDragging = true;
     lastX = e.clientX;
     lastY = e.clientY;
 });
 
-window.addEventListener("touchend", () => {
+window.addEventListener("mouseup", () => {
     isDragging = false;
 });
 
-window.addEventListener("touchmove", (e) => {
+window.addEventListener("mousemove", (e) => {
     if (!isDragging) return;
 
-    const touch = e.touches[0];
+    const dx = e.clientX - lastX;
+    const dy = e.clientY - lastY;
 
-    const dx = touch.clientX - lastX;
-    const dy = touch.clientY - lastY;
+    yaw -= dx * 0.01;      // horizontal spin
+    pitch -= dy * 0.01;    // vertical tilt
 
-    yaw -= dx * 0.01;
-    pitch -= dy * 0.01;
-
+    // clamp pitch so model never flips
     pitch = Math.max(-pitchLimit, Math.min(pitchLimit, pitch));
 
-    lastX = touch.clientX;
-    lastY = touch.clientY;
+    lastX = e.clientX;
+    lastY = e.clientY;
 });
 
 document.addEventListener("click", (e) => {
