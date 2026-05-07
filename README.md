@@ -5,7 +5,7 @@ Also contains Easy python script for mp3 to song chart generator.
 Just something fun I did for my nonsence Youtube channel.
 https://www.youtube.com/@Sparkandstorymedia
 
-Game uses JSON files to hold level data and 3D Models can be GLB or FBX
+Game uses JSON files to hold level data and 3D Models are GLB
 
 Two Python Scripts;
 
