@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rhythm Game</title>
+
+  <style>
+    body { margin: 0; overflow: hidden; background: black; }
+    #ui {
+      position: absolute;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+  </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.158/build/three.module.js",
+    "GLTFLoader": "https://cdn.jsdelivr.net/npm/three@0.158/examples/jsm/loaders/GLTFLoader.js",
+    "DRACOLoader": "https://cdn.jsdelivr.net/npm/three@0.158/examples/jsm/loaders/DRACOLoader.js"
+  }
+}
+</script>
+
+</head>
+<body>
+  <canvas id="ui"></canvas>
+
+  <script>
+    let pickjs = "main.js";
+
+    const isTouchDevice =
+        "ontouchstart" in window ||
+        navigator.maxTouchPoints > 0;
+
+    if (isTouchDevice) {
+        pickjs = "main2.js";
+    } else {
+        pickjs = "main.js";
+    }
+
+    const script = document.createElement("script");
+
+    script.type = "module";
+    script.src = pickjs;
+
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
